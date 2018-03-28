@@ -23,7 +23,18 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void restart() {
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		GameContoller.controller.fails++;
+
+		string sceneName;
+
+		if (GameContoller.controller.fails >= 3) {
+			sceneName = "GameOver";
+			GameContoller.controller.reset();
+		} else {
+			sceneName = SceneManager.GetActiveScene().name;
+		}
+
+		SceneManager.LoadScene(sceneName);
 	}
 
 }
