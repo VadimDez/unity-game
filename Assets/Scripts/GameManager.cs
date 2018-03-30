@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour {
 	public GameObject completeLevelUI;
 
 	public void endGame() {
-
 		if (!this.gameHasEnded) {
 			this.gameHasEnded = true;
 

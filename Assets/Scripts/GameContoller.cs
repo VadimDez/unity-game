@@ -4,6 +4,7 @@ public class GameContoller : MonoBehaviour {
 	public static GameContoller controller;
 
 	public int fails = 0;
+	public int score = 0;
 
 	void Awake() {
 		if (controller == null) {
