@@ -927,6 +927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fails: 0
+  score: 0
 --- !u!4 &1921457757
 Transform:
   m_ObjectHideFlags: 0
