@@ -896,6 +896,16 @@ Prefab:
       propertyPath: forwardForce
       value: 4000
       objectReference: {fileID: 0}
+    - target: {fileID: 96068862307196422, guid: b3ca6b2d2775c4988b2ecddfe5f5644e,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 96068862307196422, guid: b3ca6b2d2775c4988b2ecddfe5f5644e,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3ca6b2d2775c4988b2ecddfe5f5644e, type: 2}
   m_IsPrefabParent: 0
